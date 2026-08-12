@@ -1,0 +1,28 @@
+Fitting statistics
+==================
+
+Dataset: S2_NS073
+Input file: NS073-DNPP-S2-mes.xlsx
+t_total = 120180.0 s
+k_max = 2.883788e-06 s^-1
+exp_max_plausible_k = 0.0001
+
+Final k_obs method counts:
+k_obs_method
+exponential                     359
+initial_rate_linear_fallback     23
+initial_rate_exp_derivative       2
+
+Exponential reliability counts:
+exp_reliable
+True     361
+False     23
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+                                                                               361
+k_above_max_plausible; A_relative_error_too_high; k_relative_error_too_high     11
+k_above_max_plausible; A_relative_error_too_high                                 5
+A_relative_error_too_high; k_relative_error_too_high                             4
+A_relative_error_too_high                                                        2
+k_above_max_plausible                                                            1

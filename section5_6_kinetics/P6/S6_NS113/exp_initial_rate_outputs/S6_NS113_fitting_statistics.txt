@@ -1,0 +1,30 @@
+Fitting statistics
+==================
+
+Dataset: S6_NS113
+Input file: NS113-mes.xlsx
+t_total = 316734.0 s
+k_max = 1.094210e-06 s^-1
+exp_max_plausible_k = 0.0001
+
+Final k_obs method counts:
+k_obs_method
+initial_rate_linear_fallback    232
+exponential                     148
+initial_rate_exp_derivative       4
+
+Exponential reliability counts:
+exp_reliable
+False    232
+True     152
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+                                                                                                              152
+A_relative_error_too_high; k_relative_error_too_high                                                           82
+k_above_max_plausible; A_relative_error_too_high; k_relative_error_too_high                                    51
+k_above_max_plausible                                                                                          46
+k_above_max_plausible; A_relative_error_too_high                                                               35
+A_relative_error_too_high                                                                                      13
+A_err_not_finite; k_err_not_finite; C_err_not_finite; A_relative_error_too_high; k_relative_error_too_high      4
+negative_or_invalid_t_conv                                                                                      1

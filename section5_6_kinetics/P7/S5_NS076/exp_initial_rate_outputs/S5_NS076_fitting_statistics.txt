@@ -1,0 +1,31 @@
+Fitting statistics
+==================
+
+Dataset: S5_NS076
+Input file: NS076-t.xlsx
+t_total = 179820.0 s
+k_max = 1.927336e-06 s^-1
+exp_max_plausible_k = 0.0001
+
+Final k_obs method counts:
+k_obs_method
+initial_rate_linear_fallback    324
+exponential                      54
+initial_rate_exp_derivative       6
+
+Exponential reliability counts:
+exp_reliable
+False    324
+True      60
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+negative_or_invalid_t_conv                                                                                                           248
+                                                                                                                                      60
+A_relative_error_too_high; k_relative_error_too_high                                                                                  50
+A_err_not_finite; k_err_not_finite; C_err_not_finite; A_relative_error_too_high; k_relative_error_too_high                            13
+A_relative_error_too_high                                                                                                              6
+A_err_not_finite; k_err_not_finite; C_err_not_finite; k_above_max_plausible; A_relative_error_too_high; k_relative_error_too_high      3
+k_above_max_plausible; A_relative_error_too_high; k_relative_error_too_high                                                            2
+k_above_max_plausible                                                                                                                  1
+k_not_positive; A_relative_error_too_high; k_relative_error_too_high                                                                   1

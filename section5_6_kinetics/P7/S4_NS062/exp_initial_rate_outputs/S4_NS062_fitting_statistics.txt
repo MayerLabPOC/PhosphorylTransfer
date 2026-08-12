@@ -1,0 +1,29 @@
+Fitting statistics
+==================
+
+Dataset: S4_NS062
+Input file: NS062-mes_NS063.xlsx
+t_total = 209054.0 s
+k_max = 1.657819e-06 s^-1
+exp_max_plausible_k = 0.0005
+
+Final k_obs method counts:
+k_obs_method
+exponential                     221
+initial_rate_linear_fallback    139
+initial_rate_exp_derivative      24
+
+Exponential reliability counts:
+exp_reliable
+True     245
+False    139
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+                                                                                                                                     245
+negative_or_invalid_t_conv                                                                                                           104
+A_relative_error_too_high; k_relative_error_too_high                                                                                  20
+A_err_not_finite; k_err_not_finite; C_err_not_finite; A_relative_error_too_high; k_relative_error_too_high                             4
+A_relative_error_too_high                                                                                                              4
+k_above_max_plausible                                                                                                                  4
+A_err_not_finite; k_err_not_finite; C_err_not_finite; k_above_max_plausible; A_relative_error_too_high; k_relative_error_too_high      3

@@ -1,0 +1,27 @@
+Fitting statistics
+==================
+
+Dataset: S3_NS063
+Input file: NS063-mes.xlsx
+t_total = 184230.0 s
+k_max = 1.881201e-06 s^-1
+exp_max_plausible_k = 0.0001
+
+Final k_obs method counts:
+k_obs_method
+exponential                     372
+initial_rate_linear_fallback     12
+
+Exponential reliability counts:
+exp_reliable
+True     372
+False     12
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+                                                                                                              372
+k_above_max_plausible                                                                                           7
+k_above_max_plausible; A_relative_error_too_high                                                                2
+k_above_max_plausible; A_relative_error_too_high; k_relative_error_too_high                                     1
+A_relative_error_too_high                                                                                       1
+A_err_not_finite; k_err_not_finite; C_err_not_finite; A_relative_error_too_high; k_relative_error_too_high      1

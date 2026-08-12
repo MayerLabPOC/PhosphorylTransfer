@@ -1,0 +1,20 @@
+Fitting statistics
+==================
+
+Dataset: S5_NS070
+Input file: NS070-mes.xlsx
+t_total = 288232.0 s
+k_max = 1.202412e-06 s^-1
+exp_max_plausible_k = 0.0001
+
+Final k_obs method counts:
+k_obs_method
+exponential    384
+
+Exponential reliability counts:
+exp_reliable
+True    384
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+    384

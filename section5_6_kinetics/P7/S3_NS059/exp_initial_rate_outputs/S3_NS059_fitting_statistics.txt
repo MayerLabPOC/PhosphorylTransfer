@@ -1,0 +1,27 @@
+Fitting statistics
+==================
+
+Dataset: S3_NS059
+Input file: NS059-mes.xlsx
+t_total = 288230.0 s
+k_max = 1.202420e-06 s^-1
+exp_max_plausible_k = 0.0001
+
+Final k_obs method counts:
+k_obs_method
+exponential                     365
+initial_rate_exp_derivative      12
+initial_rate_linear_fallback      7
+
+Exponential reliability counts:
+exp_reliable
+True     377
+False      7
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+                                                        377
+A_relative_error_too_high; k_relative_error_too_high      3
+k_above_max_plausible                                     2
+k_above_max_plausible; A_relative_error_too_high          1
+negative_or_invalid_t_conv                                1

@@ -1,0 +1,20 @@
+Fitting statistics
+==================
+
+Dataset: S3_NS129
+Input file: NS129-mes.xlsx
+t_total = 151980.0 s
+k_max = 2.280389e-06 s^-1
+exp_max_plausible_k = 0.0005
+
+Final k_obs method counts:
+k_obs_method
+exponential    384
+
+Exponential reliability counts:
+exp_reliable
+True    384
+
+Exponential unreliable reasons:
+exp_unreliable_reason
+    384
